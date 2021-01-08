@@ -22,3 +22,42 @@
 [submodule "extensions/xssfilter"]
 	path = extensions/xssfilter
 	url = git://github.com/symphonycms/xssfilter.git
+[submodule "extensions/simplemde"]
+	path = extensions/simplemde
+	url = https://github.com/animaux/simplemde.git
+[submodule "extensions/order_entries"]
+	path = extensions/order_entries
+	url = https://github.com/symphonists/order_entries.git
+[submodule "extensions/languages"]
+	path = extensions/languages
+	url = https://github.com/DeuxHuitHuit/languages.git
+[submodule "extensions/flang_detection_gtlds"]
+	path = extensions/flang_detection_gtlds
+	url = https://github.com/DeuxHuitHuit/flang_detection_gtlds.git
+[submodule "extensions/frontend_localisation"]
+	path = extensions/frontend_localisation
+	url = https://github.com/DeuxHuitHuit/frontend_localisation.git
+[submodule "extensions/ajax_checkbox"]
+	path = extensions/ajax_checkbox
+	url = https://github.com/DeuxHuitHuit/ajax_checkbox.git
+[submodule "extensions/publishbutton"]
+	path = extensions/publishbutton
+	url = https://github.com/pixelninja/publishbutton.git
+[submodule "extensions/multilingual_field"]
+	path = extensions/multilingual_field
+	url = https://github.com/DeuxHuitHuit/multilingual_field.git
+[submodule "extensions/media_library"]
+	path = extensions/media_library
+	url = https://github.com/pixelninja/media_library.git
+[submodule "extensions/anti_brute_force"]
+	path = extensions/anti_brute_force
+	url = https://github.com/Solutions-Nitriques/anti_brute_force.git
+[submodule "extensions/html5_doctype"]
+	path = extensions/html5_doctype
+	url = https://github.com/symphonists/html5_doctype.git
+[submodule "extensions/tracker"]
+	path = extensions/tracker
+	url = https://github.com/symphonists/tracker.git
+[submodule "extensions/cache_management"]
+	path = extensions/cache_management
+	url = https://github.com/DeuxHuitHuit/cache_management.git
