@@ -61,3 +61,30 @@
 [submodule "extensions/cache_management"]
 	path = extensions/cache_management
 	url = https://github.com/DeuxHuitHuit/cache_management.git
+[submodule "extensions/publish_tabs"]
+	path = extensions/publish_tabs
+	url = https://github.com/symphonists/publish_tabs.git
+[submodule "extensions/limit_section_entries"]
+	path = extensions/limit_section_entries
+	url = https://github.com/DeuxHuitHuit/limit_section_entries.git
+[submodule "extensions/textboxfield"]
+	path = extensions/textboxfield
+	url = https://github.com/symphonists/textboxfield.git
+[submodule "extensions/save_and_return"]
+	path = extensions/save_and_return
+	url = https://github.com/Solutions-Nitriques/save_and_return.git
+[submodule "extensions/image_upload"]
+	path = extensions/image_upload
+	url = https://github.com/DeuxHuitHuit/image_upload.git
+[submodule "extensions/multiuploadfield"]
+	path = extensions/multiuploadfield
+	url = https://github.com/symphonists/multiuploadfield.git
+[submodule "extensions/image_index_preview"]
+	path = extensions/image_index_preview
+	url = https://github.com/symphonists/image_index_preview.git
+[submodule "extensions/multilingual_selectbox_link_field"]
+	path = extensions/multilingual_selectbox_link_field
+	url = https://github.com/DeuxHuitHuit/multilingual_selectbox_link_field.git
+[submodule "extensions/page_lhandles"]
+	path = extensions/page_lhandles
+	url = https://github.com/DeuxHuitHuit/page_lhandles.git
