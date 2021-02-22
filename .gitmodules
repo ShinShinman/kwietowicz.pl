@@ -1,0 +1,90 @@
+[submodule "extensions/export_ensemble"]
+	path = extensions/export_ensemble
+	url = git://github.com/symphonycms/export_ensemble.git
+[submodule "extensions/markdown"]
+	path = extensions/markdown
+	url = git://github.com/symphonycms/markdown.git
+[submodule "extensions/maintenance_mode"]
+	path = extensions/maintenance_mode
+	url = git://github.com/symphonycms/maintenance_mode.git
+[submodule "extensions/selectbox_link_field"]
+	path = extensions/selectbox_link_field
+	url = git://github.com/symphonycms/selectbox_link_field.git
+[submodule "extensions/jit_image_manipulation"]
+	path = extensions/jit_image_manipulation
+	url = git://github.com/symphonycms/jit_image_manipulation.git
+[submodule "extensions/profiledevkit"]
+	path = extensions/profiledevkit
+	url = git://github.com/symphonycms/profiledevkit.git
+[submodule "extensions/debugdevkit"]
+	path = extensions/debugdevkit
+	url = git://github.com/symphonycms/debugdevkit.git
+[submodule "extensions/xssfilter"]
+	path = extensions/xssfilter
+	url = git://github.com/symphonycms/xssfilter.git
+[submodule "extensions/simplemde"]
+	path = extensions/simplemde
+	url = https://github.com/animaux/simplemde.git
+[submodule "extensions/order_entries"]
+	path = extensions/order_entries
+	url = https://github.com/symphonists/order_entries.git
+[submodule "extensions/languages"]
+	path = extensions/languages
+	url = https://github.com/DeuxHuitHuit/languages.git
+[submodule "extensions/flang_detection_gtlds"]
+	path = extensions/flang_detection_gtlds
+	url = https://github.com/DeuxHuitHuit/flang_detection_gtlds.git
+[submodule "extensions/frontend_localisation"]
+	path = extensions/frontend_localisation
+	url = https://github.com/DeuxHuitHuit/frontend_localisation.git
+[submodule "extensions/ajax_checkbox"]
+	path = extensions/ajax_checkbox
+	url = https://github.com/DeuxHuitHuit/ajax_checkbox.git
+[submodule "extensions/publishbutton"]
+	path = extensions/publishbutton
+	url = https://github.com/pixelninja/publishbutton.git
+[submodule "extensions/multilingual_field"]
+	path = extensions/multilingual_field
+	url = https://github.com/DeuxHuitHuit/multilingual_field.git
+[submodule "extensions/media_library"]
+	path = extensions/media_library
+	url = https://github.com/pixelninja/media_library.git
+[submodule "extensions/anti_brute_force"]
+	path = extensions/anti_brute_force
+	url = https://github.com/Solutions-Nitriques/anti_brute_force.git
+[submodule "extensions/html5_doctype"]
+	path = extensions/html5_doctype
+	url = https://github.com/symphonists/html5_doctype.git
+[submodule "extensions/tracker"]
+	path = extensions/tracker
+	url = https://github.com/symphonists/tracker.git
+[submodule "extensions/cache_management"]
+	path = extensions/cache_management
+	url = https://github.com/DeuxHuitHuit/cache_management.git
+[submodule "extensions/publish_tabs"]
+	path = extensions/publish_tabs
+	url = https://github.com/symphonists/publish_tabs.git
+[submodule "extensions/limit_section_entries"]
+	path = extensions/limit_section_entries
+	url = https://github.com/DeuxHuitHuit/limit_section_entries.git
+[submodule "extensions/textboxfield"]
+	path = extensions/textboxfield
+	url = https://github.com/symphonists/textboxfield.git
+[submodule "extensions/save_and_return"]
+	path = extensions/save_and_return
+	url = https://github.com/Solutions-Nitriques/save_and_return.git
+[submodule "extensions/image_upload"]
+	path = extensions/image_upload
+	url = https://github.com/DeuxHuitHuit/image_upload.git
+[submodule "extensions/multiuploadfield"]
+	path = extensions/multiuploadfield
+	url = https://github.com/symphonists/multiuploadfield.git
+[submodule "extensions/image_index_preview"]
+	path = extensions/image_index_preview
+	url = https://github.com/symphonists/image_index_preview.git
+[submodule "extensions/multilingual_selectbox_link_field"]
+	path = extensions/multilingual_selectbox_link_field
+	url = https://github.com/DeuxHuitHuit/multilingual_selectbox_link_field.git
+[submodule "extensions/page_lhandles"]
+	path = extensions/page_lhandles
+	url = https://github.com/DeuxHuitHuit/page_lhandles.git
