@@ -1,6 +1,12 @@
 .htaccess
-workspace/
+workspace/fonts/*
+!workspace/fonts/.gitkeep
+workspace/images/*/
+!workspace/images/about/
+workspace/node_modules/
+workspace/debug.log
 manifest/
 node_modules/
 install-log.txt
 install/logs/
+vendor/

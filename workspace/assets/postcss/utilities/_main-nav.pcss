@@ -1,0 +1,121 @@
+nav.main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+
+  header {
+    height: 145px;
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+
+    h1 {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+
+      a:hover {
+        border: 0;
+      }
+    }
+
+    .menu-trigger {
+      cursor: pointer;
+      margin-left: auto;
+      height: 28px;
+      margin-top: auto;
+
+      display: none;
+
+      .bar1, .bar2, .bar3 {
+        width: 46px;
+        height: 4px;
+        background-color: black;
+        margin: 4px 0;
+        transition: 0.4s;
+      }
+
+      &.change {
+        .bar1 {
+          transform: rotate(-30deg) translate(-5px, 5px);
+        }
+
+        .bar2 {
+          opacity: 0;
+        }
+
+        .bar3 {
+          transform: rotate(30deg) translate(-6px, -8px);
+        }
+      }
+    }
+  }
+
+  section.projects {
+    a.active {
+      font-weight: 700;
+    }
+
+    ul.current-project li {
+      margin-left: 24px;
+    }
+  }
+
+  section.meta {
+    margin-top: auto;
+    margin-bottom: 105px;
+  }
+}
+
+
+
+@media only screen and (max-width: $smallScreen) {
+  nav.main {
+    width: 100vw;
+    height: 70px;
+    overflow: hidden;
+    margin-left: -20px;
+    margin-right: -20px;
+    background-color: white;
+    position: fixed;
+    transition: height 0.5s ease-out;
+    z-index: 1000;
+
+    font-size: 24px;
+
+    &.active {
+      height: 100vh;
+    }
+
+    header {
+      margin: 20px;
+      height: auto;
+
+      h1 {
+        position: relative;
+        top: 0;
+        transform: none;
+      }
+
+      .menu-trigger {
+        display: block;
+      }
+    }
+
+    section {
+      margin-left: 20px;
+      margin-right: 20px;
+
+      &.projects {
+        margin-bottom: 4em;
+      }
+
+      &.meta {
+        margin-top: 0;
+        margin-bottom: 1.3em;
+      }
+    }
+  }
+}

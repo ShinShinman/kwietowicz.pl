@@ -1,0 +1,133 @@
+main.projekt {
+  /* display: block; */
+  grid-template-rows: 145px auto;
+  overflow: hidden;
+  height: calc(100vh - 105px);
+
+  figure {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+
+    object-fit: contain;
+    object-position: center;
+  }
+
+  .swiper-container {
+    grid-column: 1 / -1;
+    min-height: 100%;
+
+    position: relative;
+    overflow: hidden;
+
+    .swiper-wrapper {
+      height: 100%;
+    }
+
+    .swiper-slide {
+      width: auto;
+      height: 100%;
+
+      position: relative;
+      display: flex;
+      flex-shrink: 0;
+      justify-content: center;
+      align-items: center;
+      cursor: grab;
+    }
+  }
+
+  .swiper-slide.project__meta {
+    align-items: flex-start;
+  }
+
+  div.project__description {
+    margin-right: 20px;
+
+    h1 {
+      font-size: 12px;
+      margin-bottom: 1rem;
+    }
+  }
+
+  aside.project__details {
+    flex: 0 0 285px;
+    height: 100%;
+    overflow-y: scroll;
+
+    h2 {
+      font-size: 12px;
+    }
+  }
+
+  .swiper-plugin-navigation-prevEl,
+  .swiper-plugin-navigation-nextEl {
+    display: block;
+    position: absolute;
+    top: 50%;
+    padding: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    top: 0;
+    height: 100%;
+
+
+    &.swiper-button-disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+
+  .swiper-plugin-navigation-prevEl {
+    left: 0;
+    cursor: url('../images/prev_arrow.svg'), auto;
+  }
+
+  .swiper-plugin-navigation-nextEl {
+    right: 0;
+    cursor: url('../images/forward_arrow.svg'), auto;
+  }
+
+}
+
+@media only screen and (max-width: $smallScreen) {
+  main.projekt {
+    overflow: auto;
+
+    .swiper-container {
+      overflow: auto;
+
+      .swiper-slide {
+        margin-bottom: 20px;
+      }
+
+      .project__meta {
+        display: block;
+
+        p:last-child {
+          margin-bottom: 1em;
+        }
+      }
+    }
+
+    .swiper-plugin-navigation-prevEl,
+    .swiper-plugin-navigation-nextEl {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+nav.language {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+
+  ul {
+    display: flex;
+
+    li {
+      margin-left: 5px;
+    }
+  }
+}
+
+nav.main {
+  nav.language {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: $smallScreen) {
+  nav.language {
+    position: relative;
+    top: auto;
+    right: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    transform: none;
+
+    ul li {
+      margin-left: 0;
+      margin-right: 5px;
+    }
+  }
+
+  nav.main {
+    nav.language {
+      display: block;
+    }
+  }
+}

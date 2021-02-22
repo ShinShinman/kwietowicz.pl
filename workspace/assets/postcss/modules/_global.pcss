@@ -1,0 +1,92 @@
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Atlas Grotesk Web';
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+  font-size: 12px;
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: 285px auto;
+  grid-gap: 20px;
+
+  margin-left: 80px;
+  margin-right: 80px;
+
+  letter-spacing: -0.015em;
+}
+
+h1 {
+  font-weight:  700;
+  font-size: 24px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+
+  li {
+  }
+}
+
+p:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+  &:hover {
+    text-decoration: none;
+    /* border-bottom: solid 1px black; */
+  }
+
+  &.active {
+    font-weight: 700;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+main {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, 285px);
+  grid-template-rows: 145px repeat(auto-fit, 410px);
+  margin-bottom: 80px;
+
+  header {
+    height: 145px;
+    position: relative;
+    grid-column: 1 / -1;
+  }
+}
+
+
+
+@media only screen and (max-width: $smallScreen) {
+  body {
+    display: block;
+    margin: 0 20px;
+  }
+
+  main {
+    display: block;
+    margin-top: 70px;
+
+    header {
+      display: none;
+    }
+  }
+}
