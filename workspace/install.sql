@@ -90,7 +90,7 @@ CREATE TABLE`tbl_fields_languages` (
 
 -- *** STRUCTURE:`tbl_fields_multilingual_selectbox_link` ***
 DROP TABLE IF EXISTS`tbl_fields_multilingual_selectbox_link`;
-CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `sym_fields_multilingual_selectbox_link` AS select `sym_fields_selectbox_link`.`id` AS `id`,`sym_fields_selectbox_link`.`field_id` AS `field_id`,`sym_fields_selectbox_link`.`allow_multiple_selection` AS `allow_multiple_selection`,`sym_fields_selectbox_link`.`hide_when_prepopulated` AS `hide_when_prepopulated`,`sym_fields_selectbox_link`.`related_field_id` AS `related_field_id`,`sym_fields_selectbox_link`.`limit` AS `limit` from `sym_fields_selectbox_link`;
+CREATE ALGORITHM=UNDEFINED DEFINER=`shinman_kwietowicz`@`localhost` SQL SECURITY DEFINER VIEW `sym_fields_multilingual_selectbox_link` AS select `kwietowicz`.`sym_fields_selectbox_link`.`id` AS `id`,`kwietowicz`.`sym_fields_selectbox_link`.`field_id` AS `field_id`,`kwietowicz`.`sym_fields_selectbox_link`.`allow_multiple_selection` AS `allow_multiple_selection`,`kwietowicz`.`sym_fields_selectbox_link`.`hide_when_prepopulated` AS `hide_when_prepopulated`,`kwietowicz`.`sym_fields_selectbox_link`.`related_field_id` AS `related_field_id`,`kwietowicz`.`sym_fields_selectbox_link`.`limit` AS `limit` from `kwietowicz`.`sym_fields_selectbox_link`;
 
 -- *** DATA:`tbl_fields_multilingual_selectbox_link` ***
 INSERT INTO`tbl_fields_multilingual_selectbox_link` (`id`, `field_id`, `allow_multiple_selection`, `hide_when_prepopulated`, `related_field_id`, `limit`) VALUES (10, 22, 'no', 'no', 16, 20);
