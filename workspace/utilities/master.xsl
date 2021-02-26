@@ -23,7 +23,7 @@
 		<title>
 			<xsl:call-template name="page-title"/>
 		</title>
-    <link rel="stylesheet" href="{$workspace}/css/main.min.css" />
+    <link rel="stylesheet" href="{$workspace}/css/main.min.css?v=0.0.2" />
 	</head>
 	<body>
 		<xsl:call-template name="main-navigation" />
